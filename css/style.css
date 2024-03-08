@@ -26,14 +26,14 @@
 
 #IncreaseSpeed:hover{
     cursor: pointer;
-    color: rgb(229, 233, 22);
-    background: #af2424;
+    scale: 110%;
+   
 
     
 }
 #DecreaseSpeed:hover{
     cursor: pointer;
-    color: rgb(229, 233, 22);
+    scale: 110%;
 }
 .box{
     display: flex;
