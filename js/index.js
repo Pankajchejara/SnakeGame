@@ -18,10 +18,11 @@ let snakeArr = [
 
 food = {x: 6, y: 7};
 
+document.querySelector('#speedData').textContent=speed;
 
 document.querySelector('#IncreaseSpeed').addEventListener('click',()=>{
     speed=speed+1;
-    document.querySelector('#speedData').textContent=speed;
+document.querySelector('#speedData').textContent=speed;
    
 })
 document.querySelector('#DecreaseSpeed').addEventListener('click',()=>{
